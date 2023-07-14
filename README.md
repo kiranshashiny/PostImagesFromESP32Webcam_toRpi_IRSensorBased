@@ -1,9 +1,18 @@
 # HTTP_Post_Images_From_ESP32Webcam_to_Rpi_IR_Sensor_Based
 
+Features:
+
+- The Raspberry Pi's hostname is being resolved to get the IP address and the webcam uploads the images to Rpi ( /var/www/html/uploads folder).
+
+- ESP 32 has the mDNS installed, so it can resolve the hostname to IP address.
+
+  ( reference https://techtutorialsx.com/2021/10/29/esp32-mdns-host-name-resolution/ )
+
+- ESP WebCam integrated with the IR sensor - connected to pin 13 of the WebCam ( See IR Pin in code below )
+
 I have NOT attached the code to this repo - but instead Cut and Pasted the code here as I had to make changes to the code to remove the SSID and the Password to the WiFi router.
 
-
-This project involves the IR sensor, which sends the image to Raspberry Pi on the same network ( loaded to upload.php, and then viewed thru gallery.php)
+This project involves the IR sensor, which sends the image to Raspberry Pi on the same network ( loads to upload.php, and then viewed thru http://IPaddress/gallery.php)
 
 Every time the IR sensor detects the motion then an image is taken and posted to the Raspberry pi.
 
@@ -14,6 +23,8 @@ This repo is about interfacing the IR sensor to the WebCam ( pin 13) and when th
 
 
 ![image](https://github.com/kiranshashiny/Post_Images_From_ESP32Webcam_to_Rpi_IRSensor_Based/assets/14288989/5db8dc77-c38a-4b34-a3cf-c990423e9be5)
+
+![image](https://github.com/kiranshashiny/Post_Images_From_ESP32Webcam_to_Rpi_IRSensor_Based/assets/14288989/ab4f4140-4f2d-4a54-aa5d-76a1c0c21667)
 
 
 ```
