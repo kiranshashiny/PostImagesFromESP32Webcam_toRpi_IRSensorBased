@@ -1,4 +1,4 @@
-# Post_Images_From_ESP32Webcam_to_Rpi_IR_Sensor_Based
+# HTTP_Post_Images_From_ESP32Webcam_to_Rpi_IR_Sensor_Based
 
 I have NOT attached the code to this repo - but instead Cut and Pasted the code here as I had to make changes to the code to remove the SSID and the Password to the WiFi router.
 
