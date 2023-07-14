@@ -44,7 +44,7 @@ This repo is about interfacing the IR sensor to the WebCam ( pin 13) and when th
 #define SERVICE_PORT 5600
 
 const char* ssid = "JioFiber-24";
-const char* password = "welcome2ibm";
+const char* password = "XXXXXXXXXXX";
 
 int IRpin = 13;
 boolean state = false;
